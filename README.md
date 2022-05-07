@@ -15,6 +15,7 @@ This project was developed to collect data from Star Jeans competitors and bring
 
 # Webscraping:
 Data collect:
+he data was collected from the H&M website, using Beautiful Soup in Python.
 First, all the men jean's pants that were in the showcase from the website were collected. 
 After that, the collection took place in the page of each of these products.
 Each product has different colors, and the final information of the products, such as product name, price, fit and composition, was collected in the pages of these colors.
