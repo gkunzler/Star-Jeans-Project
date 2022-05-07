@@ -15,16 +15,16 @@ This project was developed to collect data from Star Jeans competitors and bring
 
 # Webscraping:
 Data collect:
-he data was collected from the H&M website, using Beautiful Soup in Python.
+The data was collected from the H&M website, using Beautiful Soup in Python.
 First, all the men jean's pants that were in the showcase from the website were collected. 
 After that, the collection took place in the page of each of these products.
 Each product has different colors, and the final information of the products, such as product name, price, fit and composition, was collected in the pages of these colors.
 
 Data cleaning:
 For the composition attribute, it was found that in the same product, the same material appeared twice, since the composition refers to two parts of the product: pants and pocket. 
-Example: Product X: cotton: '99%' and cotton: 98%.
+Example: Product X: cotton: 99%' and cotton: 98%.
 In these cases the highest value was kept. 
-Example: Product X: cotton: '99%'
+Example: Product X: cotton: 99%
 
 SQLite: 
 The collection of the data was automated by a cron job that captured the data twice a day for four days. To insert these data in a database it was used SQLite in Python.
