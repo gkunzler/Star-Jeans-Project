@@ -2,7 +2,7 @@
 
 # Business Problem:
 
-Star Jeans is a fictional company, that is just about to start in the men's fashion business. The company is going to launch an e-commerce of jeans pants for men. The owner of the company doesn`t know anything about this branch of business and would like to have some information about his future business competitors. 
+Star Jeans is a fictional company, that is about to start in the men's fashion business. The company is going to launch an e-commerce of jeans pants for men. The owner of the company doesn`t know anything about this branch of business and would like to have some information about his future business competitors. 
 This project was developed to collect data from Star Jeans competitors and bring the company some useful information.
 
 # Business Strategy:
