@@ -34,21 +34,30 @@ The data was analyzed considering color, composition and fit, to build rankings 
 
 Color Ranking:
 It was found that most of the products have the colors: denin blue, light denin blue, black, dark denin blue and dark gray. These 5 colors represent 64% of the SKUs, and other 32 colors represent 36% of the SKUS. 
+![color](https://github.com/gkunzler/Star-Jeans-Project/blob/main/img/table_sku_colors.JPG)
+![color](https://github.com/gkunzler/Star-Jeans-Project/blob/main/img/qty_skus_colors.JPG)
 
 Fit Ranking:
 The slim fit is the most common type of fit, with 36.2% of the SKUs, followed by skinny fit (27.04%), regular fit (22.45%), relaxed fit (11.73%) and loose fit (2.55%).
+![fit](https://github.com/gkunzler/Star-Jeans-Project/blob/main/img/qty_sku_fit.JPG)
 
 Composition:
 The SKUs are composed by three different materials: cotton, polyester and spandex. In order to analyze the composition of the SKUs, data was splited into SKUs that contain and SKUs that don't contain the materials.  All of the SKUs contain cotton, 32.14% of the SKUs contain polyester, 67.86% don’t contain polyester, 45.27% of the SKUs contain spandex and 54.73% don`t contain spandex.
+![composition](https://github.com/gkunzler/Star-Jeans-Project/blob/main/img/qty_sku_materials.JPG)
+
 
 Mean Price:
 The mean price of the products was calculated considering products with different colors, fit and composition, in order to analyze if these attributes were relevant to the price. 
 
 It was found, at first, that the colors were not related to different prices. Even though some colors were more expensive than others, the quantity of SKUs that have these colors is too low, so it can´t be affirmed that the price difference is related to the color. The colors that have similar SKU's quantity have also similar prices.
+![color_price](https://github.com/gkunzler/Star-Jeans-Project/blob/main/img/mean_price_color_table.JPG)
+![color_price](https://github.com/gkunzler/Star-Jeans-Project/blob/main/img/mean_price_color.JPG)
 
 The fit was also, at first, not related to different prices. Even though the loose fit is more expensive than the other fits, only 2.55% of the SKUs have loose fit, so it can't be affirmed that the price difference is related to the fit.  The other fits have similar prices.
+![fit_price](https://github.com/gkunzler/Star-Jeans-Project/blob/main/img/mean_price_fit.JPG)
 
 The material might have some relation with the price difference. It was found that SKUs that don't contain Spandex are 12% more expensive than the ones that contain it.
+![fit_price](https://github.com/gkunzler/Star-Jeans-Project/blob/main/img/mean_price_material.JPG)
 
 Results can also be seen in the HeM_Data_Analysis.ipynb
 
